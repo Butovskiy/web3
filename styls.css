@@ -11,9 +11,16 @@ html,body
 	
 }
 
+.contaner
+{
+	display: flex;
+	flex-direction: column;
+}
+
 header
 {
-	flex-basis: 100%;
+	display: flex;
+	width: 100%;
 	background-color: white;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
 	height: 120px;
@@ -22,14 +29,17 @@ header
 	/*padding-top: 10px;*/
 }
 
+
 .cap
 {
-
 	display: flex;
-	flex-basis: 50%;
+	width: 50%;
+	/*justify-content: center;*/
+	margin: 0 auto;
+	/*background-color: blue;*/
 	/*height: 100px;*/
 	/*background-color: blue;*/
-	/*margin: 0 auto;*/
+	
 	/*width: 960px;*/
 }
 
@@ -46,25 +56,28 @@ header
 #name-header
 {
 	display: flex;
+	align-items: center;
 	color: gray;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 25px;
 	/*padding-top: 50px;*/
-	align-items: center;
 	/*margin-top: 40px;*/
 	/*background-color: red;*/
 }
 
 nav
 {
+	display: flex;
+	margin: 0 auto;
 	justify-content: space-around;
 	font-weight: bold;
-	flex-basis: 50%;
+	width: 50%;
+	/*background-color: blue;*/
 	/*display: block;*/
 	/*width: 960px;*/
 	/*text-align: center;*/
 	/*margin: auto;*/
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 
 nav a
@@ -72,7 +85,8 @@ nav a
 	color: gray;
 	/*margin-right: 50px;*/
 	/*margin-left: 50px;*/
-	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	padding-bottom: 2px;
 }
 
 nav a:hover
@@ -87,13 +101,14 @@ nav a:hover
 
 .content
 {
+	padding: 10px;
 	margin: 0 auto;
 	/*width: 960px;*/
-	flex-basis: 50%;
+	width: 50%;
 	font-size: 15px;
 }
 
-a 
+a
 {
 	text-decoration: none;
 	color: #f2683a;
@@ -104,11 +119,14 @@ a:hover
 	color: gray;
 }
 
+
 .tab
 {
-	/*width: 960px;*/
+	display: flex;
+	order: 2;
 	flex-basis: 50%;
-	margin: 0 auto;
+	justify-content: center;
+	margin: 20px;
 }
 
 table
@@ -116,7 +134,6 @@ table
 	color: gray;
 	padding: 15px;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
-	margin: 0 auto;
 	margin-bottom: 30px;
 }
 
@@ -127,9 +144,12 @@ td
 
 .form
 {
-	margin: 0 auto;
+	display: flex;
+	order: 1;
+	/*margin: 0 auto;*/
+	justify-content: center;
 	flex-basis: 50%;
-	/*width: 960px;*/
+	margin: 20px;
 }
 
 form
@@ -194,7 +214,7 @@ textarea
 
 footer
 {
-	margin-top: 50px;
+	margin-top: 30px;
 	background-color: white;
 	padding-left: 50px;
 	color: gray;
