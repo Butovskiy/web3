@@ -84,6 +84,7 @@ nav a:hover
 
 .content
 {
+	color: gray;
 	padding: 10px;
 	margin: 0 auto;
 	/*width: 960px;*/
@@ -121,15 +122,17 @@ a:hover
 table
 {
 	color: gray;
-	padding: 15px;
+	padding: 10px;
+	padding-top: 20px;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
 	margin-bottom: 30px;
 }
 
 td 
 {
-	padding: 10px;
+	padding: 20px;
 }
+
 
 .form
 {
@@ -143,6 +146,7 @@ td
 
 #form-text
 {
+	color: gray;
 	display: flex;
 	justify-content: center;
 	font-size: 35px;
@@ -165,6 +169,7 @@ form
 
 input
 {
+	color: gray;
 	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid transparent;
@@ -172,12 +177,14 @@ input
 
 input:hover
 {
+	color: gray;
 	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid #f2683a;
 }
 select
 {
+	color: gray;
 	padding: 10px;
 	font-family:Google Sans;
 	background-color: transparent;
@@ -187,6 +194,7 @@ select
 
 textarea
 {
+	color: gray;
 	padding: 10px;
 	font-family: Google Sans;
 	background-color: transparent;
@@ -196,7 +204,7 @@ textarea
 #bot 
 {
 	color: gray;
-	margin-top: 10px;
+	margin-top: 30px;
 	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid gray;
@@ -205,7 +213,7 @@ textarea
 #bot:hover
 {
 	color: #f2683a;
-	margin-top: 10px;
+	margin-top: 30px;
 	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid #f2683a;
@@ -316,6 +324,7 @@ footer
 
 	.content
 	{
+		color: gray;
 		padding: 10px;
 		margin: 0 auto;
 		width: 80%;
@@ -356,6 +365,8 @@ footer
 		width: 78%;
 		color: gray;
 		padding: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 		box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
 		margin-bottom: 30px;
 	}
@@ -439,7 +450,7 @@ footer
 	#bot 
 	{
 		color: gray;
-		margin-top: 10px;
+		margin-top: 30px;
 		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid gray;
@@ -448,7 +459,7 @@ footer
 	#bot:hover
 	{
 		color: #f2683a;
-		margin-top: 10px;
+		margin-top: 30px;
 		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid #f2683a;
