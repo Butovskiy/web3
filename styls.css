@@ -2,7 +2,7 @@ html,body
 {
 	background-image: url('https://butovskiy.github.io/First-website/img/2.1.jpg');
 	font-size: 15px;
-	font-family: Century Gothic;
+	font-family: Google Sans;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -165,21 +165,21 @@ form
 
 input
 {
-	font-family: Century Gothic;
+	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid transparent;
 }
 
 input:hover
 {
-	font-family: Century Gothic;
+	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid #f2683a;
 }
 select
 {
 	padding: 10px;
-	font-family: Century Gothic;
+	font-family:Google Sans;
 	background-color: transparent;
 	border: 2px solid transparent;
 	height: 80px;
@@ -188,7 +188,7 @@ select
 textarea
 {
 	padding: 10px;
-	font-family: Century Gothic;
+	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid transparent;
 }
@@ -197,7 +197,7 @@ textarea
 {
 	color: gray;
 	margin-top: 10px;
-	font-family: Century Gothic;
+	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid gray;
 }
@@ -206,7 +206,7 @@ textarea
 {
 	color: #f2683a;
 	margin-top: 10px;
-	font-family: Century Gothic;
+	font-family: Google Sans;
 	background-color: transparent;
 	border: 2px solid #f2683a;
 }
@@ -241,7 +241,7 @@ footer
 	{
 		background-image: url('https://butovskiy.github.io/First-website/img/2.1.jpg');
 		/*font-size: 20px;*/
-		font-family: Century Gothic;
+		font-family: Google Sans;
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -400,7 +400,7 @@ footer
 	input
 	{
 		font-size: 35px;
-		font-family: Century Gothic;
+		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid transparent;
 	}
@@ -408,7 +408,7 @@ footer
 	input:hover
 	{
 		font-size: 35px;
-		font-family: Century Gothic;
+		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid #f2683a;
 	}
@@ -417,7 +417,7 @@ footer
 	{
 		font-size: 35px;
 		padding: 10px;
-		font-family: Century Gothic;
+		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid transparent;
 		height: 60px;
@@ -427,7 +427,7 @@ footer
 	{
 		font-size: 35px;
 		padding: 10px;
-		font-family: Century Gothic;
+		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid transparent;
 	}
@@ -436,7 +436,7 @@ footer
 	{
 		color: gray;
 		margin-top: 10px;
-		font-family: Century Gothic;
+		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid gray;
 	}
@@ -445,7 +445,7 @@ footer
 	{
 		color: #f2683a;
 		margin-top: 10px;
-		font-family: Century Gothic;
+		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid #f2683a;
 	}
