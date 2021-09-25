@@ -400,6 +400,7 @@ footer
 	input
 	{
 		font-size: 35px;
+		color: gray;
 		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid transparent;
@@ -408,6 +409,7 @@ footer
 	input:hover
 	{
 		font-size: 35px;
+		color: gray;
 		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid #f2683a;
@@ -416,6 +418,7 @@ footer
 	select
 	{
 		font-size: 35px;
+		color: gray;
 		padding: 10px;
 		font-family: Google Sans;
 		background-color: transparent;
@@ -427,6 +430,7 @@ footer
 	{
 		font-size: 35px;
 		padding: 10px;
+		color: gray;
 		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid transparent;
