@@ -100,7 +100,7 @@ a:hover
 .tab
 {
 	display: flex;
-	order: 2;
+	order: 1;
 	flex-basis: 50%;
 	justify-content: center;
 	margin: 20px;
@@ -124,7 +124,7 @@ td
 .form
 {
 	display: flex;
-	order: 1;
+	order: 2;
 	justify-content: center;
 	flex-basis: 50%;
 	margin: 20px;
